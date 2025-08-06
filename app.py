@@ -6,7 +6,7 @@ from dateutil import parser  # Corrected import
 import os
 
 st.set_page_config(layout="wide")
-st.title("🖱️🧠 Mouse & Keyboard Activity Analyzer")
+st.title("Mouse & Keyboard Activity Analyzer")
 
 uploaded_file = st.file_uploader("Upload your CSV file (with headers: happenedAt, type, subType, eventData)", type="csv")
 
